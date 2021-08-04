@@ -1,0 +1,7 @@
+## anchore_values.yaml
+anchoreGlobal:
+  defaultAdminPassword: foobar
+  # Image used for all anchore engine deployments (excluding enterprise components).
+  # image: docker.io/anchore/anchore-engine:v0.10.0
+  image: docker.io/anchore/anchore-engine:v0.9.1 
+  imagePullPolicy: IfNotPresent
